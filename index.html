@@ -315,10 +315,10 @@
       </div>
 
       <!-- Faq images and  -->
-      <div class="flex items-center gap-4 mt-10">
+      <div class="flex lg:flex-row flex-col items-center gap-4 mt-10">
         
         <!-- Text -->
-    <div class="w-[570px]">
+    <div class="lg:w-[570px]">
 
           <!-- Accordion -->
            <div class="collapse collapse-plus bg-base-200 mb-10">
@@ -382,45 +382,105 @@
       </section>
 
       <!--Contact  Section -->
-      <section>
-        <h1 class="text-4xl font-medium mb-6">Contact With Us</h1>
-        <p class="mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <section class="my-20">
+        <div class="text-center">
+          <h1 class="text-4xl font-medium mb-6">Contact With Us</h1>
+        <p class="mb-10 px-20">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+        
 
         <!-- Contact secttion flex and grid -->
-        <div class="Flex">
-          <div class="grid grid-cols-2">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-40 ">
+          <div class="grid lg:grid-cols-2 grid-cols-1 bg-slate-50 lg:w-[570px] ">
             <!-- address -->
-            <div class="text-center space-y-4">
+            <div class="text-center space-y-4  border-b border-r  p-5
+             lg:w-[285px] lg:h-[285px]  ">
+             <div class="mt-[55px] space-y-3">
               <img class="mx-auto" src="images/address.png" alt="">
               <p>Address</p>
               <p>A108 Adam Street, <br>
                 New York, NY 535022</p>
+             </div>
+              
             </div>
             <!-- address -->
-            <div class="text-center space-y-4">
+            <div class="text-center space-y-4  border-b p-5
+             lg:w-[285px] lg:h-[285px]">
+             <div class="mt-[55px] space-y-3">
               <img class="mx-auto" src="images/address.png" alt="">
               <p>Address</p>
               <p>A108 Adam Street, <br>
                 New York, NY 535022</p>
+             </div>
+              
             </div>
             <!-- address -->
-            <div class="text-center space-y-4">
+            <div class="text-center space-y-4  border-r p-5
+             lg:w-[285px] lg:h-[285px]">
+             <div class="mt-[55px] space-y-3">
               <img class="mx-auto" src="images/address.png" alt="">
               <p>Address</p>
               <p>A108 Adam Street, <br>
                 New York, NY 535022</p>
+             </div>
+              
             </div>
             <!-- address -->
-            <div class="text-center space-y-4">
+            <div class="text-center space-y-4 border-t    p-5
+             lg:w-[285px] lg:h-[285px]">
+             <div class="mt-[55px] space-y-3">
               <img class="mx-auto" src="images/address.png" alt="">
               <p>Address</p>
               <p>A108 Adam Street, <br>
                 New York, NY 535022</p>
+             </div>
+              
             </div>
 
+
           </div>
+          
+            
           <!-- From container -->
-          <div>
+          <div class="mt-20">
+            <!-- Form -->
+
+            
+<form>
+<!-- Your Name -->
+  <div class="mb-6">
+    <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Your Email" required>
+  </div>
+
+  <!-- Your Email -->
+
+  <div class="mb-6">
+    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Your Email" required>
+  </div>
+
+  <!-- Subject -->
+
+  <div class="mb-6">
+    <label for="" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+    <input type="text" id="repeat-password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Subject" required>
+  </div>
+  <!-- Your Messsage -->
+  <div class="form-control mb-8">
+   
+    <textarea class="textarea textarea-bordered h-24" placeholder="Your Message"></textarea>
+    
+  </div>
+
+  <!-- Buttons -->
+  <div class="flex justify-center">
+    <button class="bg-red-600 lg:w-[455px] rounded-lg px-4 py-3">Send Message</button>
+  </div>
+ 
+  
+</form>
+
 
           </div>
 
